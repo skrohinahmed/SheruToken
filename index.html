@@ -144,14 +144,14 @@ footer .wrap{display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap}
     <div class="wrap hero-grid">
       <div>
       <h1>SHERU<br>TOKEN</h1>
-      <p class="lead">A small-supply token. 1,00,000 in total, with 80k+ live in the trading pool.</p>
+      <p class="lead">A small-supply token. 10B in total, with 1+ live in the trading pool.</p>
       <div class="cta">
         <a class="btn" href="#buy">How to buy</a>
         <button class="btn ghost" id="copyBtn1" type="button">Copy contract address</button>
       </div>
       <div class="ca" id="contract">
         <b>Contract</b>
-        <code id="ca">0x534b383DD5C062BbC38A3780bba1C6E2b230c082</code>
+        <code id="ca">0xB15b82A76607a42CeA4f7579A377d1d3bc6b2aDE</code>
         <button class="btn small ghost" id="copyBtn2" type="button">Copy</button>
       </div>
       </div>
@@ -162,18 +162,18 @@ footer .wrap{display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap}
   <section id="pool">
     <div class="wrap">
       <h2>Supply and pool</h2>
-      <p class="muted" style="max-width:56ch">Out of 1,00,000 SHERU, only 80k
+      <p class="muted" style="max-width:56ch">Out of 10B SHERU, only 80k
     + tokens sit in the pool you can trade against. The bar below shows how small that slice is.</p>
 
       <div class="facts">
-        <div class="fact"><span class="n">1,00,000</span><span class="l">Total supply (1 lakh)</span></div>
-        <div class="fact"><span class="n">80000+</span><span class="l">Tokens in the trading pool</span></div>
+        <div class="fact"><span class="n">10B</span><span class="l">Total supply (10B)</span></div>
+        <div class="fact"><span class="n">1+</span><span class="l">Tokens in the trading pool</span></div>
         <div class="fact"><span class="n" id="pct">0.7%</span><span class="l">Share of supply in the pool</span></div>
       </div>
 
       <div class="meter">
         <div class="track" role="img" aria-label="Pool is about 0.7 percent of total supply"><div class="fill" id="fill"></div></div>
-        <div class="scale"><span>Pool: 80k+</span><span>Total supply: 1,00,000</span></div>
+        <div class="scale"><span>Pool: 80k+</span><span>Total supply: 10B</span></div>
 
         <div class="calc">
           <div>
@@ -182,7 +182,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap}
           </div>
           <div class="out" aria-live="polite">
             <div><span id="oSupply">0.1%</span><small>of total supply</small></div>
-            <div><span id="oPool">14.3%</span><small>of the 80000+ pool</small></div>
+            <div><span id="oPool">14.3%</span><small>of the 1+ pool</small></div>
           </div>
         </div>
       </div>
@@ -206,7 +206,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap}
       <div class="notice">
         <h3>Read before you trade</h3>
         <ul>
-          <li>With only 80k+ tokens in the pool, liquidity is very thin. Even small orders can change the price sharply.</li>
+          <li>With only 1+ tokens in the pool, liquidity is very thin. Even small orders can change the price sharply.</li>
           <li>You may not be able to sell at the price you expect, or at all, if liquidity is removed.</li>
           <li>Crypto can lose all its value. Only use money you can afford to lose.</li>
           <li>This page is information, not financial advice. Do your own research.</li>
@@ -218,9 +218,9 @@ footer .wrap{display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap}
   <section id="faq">
     <div class="wrap">
       <h2>Questions</h2>
-      <details><summary>What is the total supply?</summary><p>1,00,000 SHERU (one lakh tokens).</p></details>
-      <details><summary>How many tokens can I trade?</summary><p>Trading happens against a pool holding 80k+ tokens. That is the amount available for swaps right now.</p></details>
-      <details><summary>What is the contract address?</summary><p>0x534b383DD5C062BbC38A3780bba1C6E2b230c082. Always copy it from this page or another trusted source and compare it before you swap.</p></details>
+      <details><summary>What is the total supply?</summary><p>10B (10B tokens).</p></details>
+      <details><summary>How many tokens can I trade?</summary><p>Trading happens against a pool holding 1+ tokens. That is the amount available for swaps right now.</p></details>
+      <details><summary>What is the contract address?</summary><p>0xB15b82A76607a42CeA4f7579A377d1d3bc6b2aDE. Always copy it from this page or another trusted source and compare it before you swap.</p></details>
       <details><summary>Is this a guaranteed investment?</summary><p>No. Nothing here promises profit. Prices can fall as well as rise.</p></details>
     </div>
   </section>
@@ -237,7 +237,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap}
 
 <script>
 (function(){
-  var CONFIG = { totalSupply: 100000, poolTokens: 80000 };
+  var CONFIG = { totalSupply: 10,000,000,000 , poolTokens: 1 };
   var addr = document.getElementById('ca').textContent.trim();
   var toast = document.getElementById('toast'), timer;
 
